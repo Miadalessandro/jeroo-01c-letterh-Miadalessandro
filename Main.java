@@ -21,9 +21,54 @@ public class Main implements Directions {
      */
     public static void runJerooCode() {
        // Write code here to make a letter here
-       Jeroo kim = new Jeroo(0, 0, EAST, 100);
-    
-    
+      {
+	Jeroo kim = new Jeroo(0,0,EAST, 20);
+	kim.hop();
+	kim.turn(LEFT);
+	kim.turn(LEFT);
+	kim.turn(LEFT);
+	kim.hop();
+	kim.plant();
+	kim.hop();
+	kim.plant();
+	kim.hop();
+	kim.plant();
+	kim.hop();
+	kim.plant();
+	kim.hop();
+	kim.plant();
+  	kim.hop();
+	kim.turn(LEFT);
+	kim.turn(LEFT);
+	kim.hop();
+	kim.hop();
+	kim.hop();
+	kim.turn(LEFT);
+	kim.turn(LEFT);
+    kim.turn(LEFT);
+  	kim.hop();
+	kim.plant();
+	kim.hop();
+	kim.plant();
+  	kim.hop();
+  	kim.turn(LEFT);
+	kim.turn(LEFT);
+    kim.turn(LEFT);
+  	kim.hop();
+	kim.plant();
+	kim.hop();
+	kim.plant();
+  	kim.hop();
+	kim.turn(LEFT);
+	kim.turn(LEFT);
+ 	kim.hop();
+  	kim.hop();
+  	kim.hop();
+  	kim.plant();
+  	kim.hop();
+  	kim.plant();
+  	kim.hop();
+  	kim.plant(); 
     
 
     }
